@@ -1,6 +1,6 @@
 <?php
 // Database connection settings
-$db_host = 'localhost';
+$db_host = 'mysql';
 $db_user = 'root';
 $db_pass = 'Linux.adm@1';
 

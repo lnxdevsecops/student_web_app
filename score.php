@@ -15,7 +15,7 @@
         </tr>
 
         <?php
-        $conn = new mysqli("localhost", "root", "Linux.adm@1", "new_database");
+        $conn = new mysqli("mysql", "root", "Linux.adm@1", "new_database");
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
