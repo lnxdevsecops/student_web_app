@@ -25,3 +25,11 @@ docker run -d \
   --network student \
   mysql:latest
 
+
+6. There are two uris.
+
+a. To access the index.html to insert the student score results.
+http://184.72.94.168:8080/
+
+b. The second to see the student score results.
+http://184.72.94.168:8080/score.php
