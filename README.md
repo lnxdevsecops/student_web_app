@@ -5,7 +5,7 @@
 * This application is going to connect with mysql database wiht "mysql" hostname and port 3306. This application will create a  database automatically in background.
 
 * Make sure we create a custom bridge network while working on docker and deploy both app container and mysql container in same network.
-  'docker network create -d bridge student'
+> docker network create -d bridge student
  
 
 3. Running application on student network
