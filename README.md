@@ -34,7 +34,7 @@ http://184.72.94.168:8080/score.php
 
 * Getting the error while inserting the data. However we can able to insert the data from page. Tried to fix the issue but I could not. Need to work on to fix the issue.
 
-@ Database created successfully.
+! Database created successfully.
 Table created successfully.
 
 Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/process.php:20) in /var/www/html/process.php on line 63
