@@ -12,7 +12,7 @@ docker network create -d bridge student
 
 3. Running application on student network
    
-docker run -d -p 8080:80  --name student-web-app  --network student   lnxadm1991/student-web-app
+    docker run -d -p 8080:80  --name student-web-app  --network student   lnxadm1991/student-web-app
 
 
 
@@ -33,3 +33,11 @@ http://184.72.94.168:8080/
 
 b. The second to see the student score results.
 http://184.72.94.168:8080/score.php
+
+
+* Getting the error while inserting the data. However we can able to insert the data from page. Tried to fix the issue but I could not. Need to work on to fix the issue.
+
+Database created successfully.
+Table created successfully.
+
+Warning: Cannot modify header information - headers already sent by (output started at /var/www/html/process.php:20) in /var/www/html/process.php on line 63
